@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F13E31F62341087C0027DC91 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E31F52341087C0027DC91 /* AdSupport.framework */; };
+		F13E31F8234108880027DC91 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E31F7234108880027DC91 /* AudioToolbox.framework */; };
+		F13E31FA234108920027DC91 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E31F9234108920027DC91 /* AVFoundation.framework */; };
+		F13E31FC2341089B0027DC91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E31FB2341089B0027DC91 /* CoreGraphics.framework */; };
+		F13E31FE234108A30027DC91 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E31FD234108A30027DC91 /* CoreTelephony.framework */; };
+		F13E3201234108AD0027DC91 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E31FF234108AD0027DC91 /* EventKit.framework */; };
+		F13E3202234108AD0027DC91 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E3200234108AD0027DC91 /* EventKitUI.framework */; };
+		F13E3204234108B50027DC91 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E3203234108B50027DC91 /* MessageUI.framework */; };
+		F13E3206234108BD0027DC91 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E3205234108BD0027DC91 /* StoreKit.framework */; };
+		F13E3208234108C40027DC91 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E3207234108C40027DC91 /* SystemConfiguration.framework */; };
+		F13E320F234228660027DC91 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E320B234228660027DC91 /* GoogleMobileAds.framework */; };
+		F13E3210234228660027DC91 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13E320C234228660027DC91 /* GoogleAppMeasurement.framework */; };
+		F1A897D124571565003E22D5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1A897D024571565003E22D5 /* Info.plist */; };
+		F1C60D80245710AA005DAE96 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C60D7C245710A9005DAE96 /* GoogleUtilities.framework */; };
+		F1C60D9124571171005DAE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C60D8924571171005DAE96 /* ViewController.swift */; };
+		F1C60D9224571171005DAE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C60D8A24571171005DAE96 /* Assets.xcassets */; };
+		F1C60D9324571171005DAE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C60D8B24571171005DAE96 /* LaunchScreen.storyboard */; };
+		F1C60D9424571171005DAE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C60D8D24571171005DAE96 /* Main.storyboard */; };
+		F1C60D9524571171005DAE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C60D8F24571171005DAE96 /* AppDelegate.swift */; };
+		F1C60D98245711A4005DAE96 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C60D97245711A4005DAE96 /* nanopb.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F13E31F52341087C0027DC91 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F13E31F7234108880027DC91 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F13E31F9234108920027DC91 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F13E31FB2341089B0027DC91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F13E31FD234108A30027DC91 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F13E31FF234108AD0027DC91 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F13E3200234108AD0027DC91 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		F13E3203234108B50027DC91 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F13E3205234108BD0027DC91 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F13E3207234108C40027DC91 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F13E320B234228660027DC91 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		F13E320C234228660027DC91 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		F19B9CDE233E47C300B218C2 /* 消費税即時計算.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "消費税即時計算.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A897D024571565003E22D5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C60D7C245710A9005DAE96 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		F1C60D8924571171005DAE96 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1C60D8A24571171005DAE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C60D8C24571171005DAE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1C60D8E24571171005DAE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1C60D8F24571171005DAE96 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1C60D97245711A4005DAE96 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19B9CDB233E47C300B218C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13E3202234108AD0027DC91 /* EventKitUI.framework in Frameworks */,
+				F13E3204234108B50027DC91 /* MessageUI.framework in Frameworks */,
+				F13E320F234228660027DC91 /* GoogleMobileAds.framework in Frameworks */,
+				F1C60D80245710AA005DAE96 /* GoogleUtilities.framework in Frameworks */,
+				F13E3210234228660027DC91 /* GoogleAppMeasurement.framework in Frameworks */,
+				F13E31F62341087C0027DC91 /* AdSupport.framework in Frameworks */,
+				F13E31FC2341089B0027DC91 /* CoreGraphics.framework in Frameworks */,
+				F13E3208234108C40027DC91 /* SystemConfiguration.framework in Frameworks */,
+				F13E3201234108AD0027DC91 /* EventKit.framework in Frameworks */,
+				F13E31FA234108920027DC91 /* AVFoundation.framework in Frameworks */,
+				F1C60D98245711A4005DAE96 /* nanopb.framework in Frameworks */,
+				F13E31FE234108A30027DC91 /* CoreTelephony.framework in Frameworks */,
+				F13E3206234108BD0027DC91 /* StoreKit.framework in Frameworks */,
+				F13E31F8234108880027DC91 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F13E31F42341087C0027DC91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13E3207234108C40027DC91 /* SystemConfiguration.framework */,
+				F13E3205234108BD0027DC91 /* StoreKit.framework */,
+				F13E3203234108B50027DC91 /* MessageUI.framework */,
+				F13E31FF234108AD0027DC91 /* EventKit.framework */,
+				F13E3200234108AD0027DC91 /* EventKitUI.framework */,
+				F13E31FD234108A30027DC91 /* CoreTelephony.framework */,
+				F13E31FB2341089B0027DC91 /* CoreGraphics.framework */,
+				F13E31F9234108920027DC91 /* AVFoundation.framework */,
+				F13E31F7234108880027DC91 /* AudioToolbox.framework */,
+				F13E31F52341087C0027DC91 /* AdSupport.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F19B9CD5233E47C300B218C2 = {
+			isa = PBXGroup;
+			children = (
+				F13E320C234228660027DC91 /* GoogleAppMeasurement.framework */,
+				F13E320B234228660027DC91 /* GoogleMobileAds.framework */,
+				F1C60D7C245710A9005DAE96 /* GoogleUtilities.framework */,
+				F1C60D97245711A4005DAE96 /* nanopb.framework */,
+				F19B9CDF233E47C300B218C2 /* Products */,
+				F1C60D8824571171005DAE96 /* Tax TaxCalculator */,
+				F13E31F42341087C0027DC91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F19B9CDF233E47C300B218C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19B9CDE233E47C300B218C2 /* 消費税即時計算.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C60D8824571171005DAE96 /* Tax TaxCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F1C60D8924571171005DAE96 /* ViewController.swift */,
+				F1C60D8A24571171005DAE96 /* Assets.xcassets */,
+				F1C60D8B24571171005DAE96 /* LaunchScreen.storyboard */,
+				F1C60D8D24571171005DAE96 /* Main.storyboard */,
+				F1C60D8F24571171005DAE96 /* AppDelegate.swift */,
+				F1A897D024571565003E22D5 /* Info.plist */,
+			);
+			path = "Tax TaxCalculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19B9CDD233E47C300B218C2 /* Tax TaxCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19B9CF0233E47C400B218C2 /* Build configuration list for PBXNativeTarget "Tax TaxCalculator" */;
+			buildPhases = (
+				F19B9CDA233E47C300B218C2 /* Sources */,
+				F19B9CDB233E47C300B218C2 /* Frameworks */,
+				F19B9CDC233E47C300B218C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tax TaxCalculator";
+			productName = "Tax TaxCalculator";
+			productReference = F19B9CDE233E47C300B218C2 /* 消費税即時計算.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19B9CD6233E47C300B218C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Nechan;
+				TargetAttributes = {
+					F19B9CDD233E47C300B218C2 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = F19B9CD9233E47C300B218C2 /* Build configuration list for PBXProject "Tax TaxCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19B9CD5233E47C300B218C2;
+			productRefGroup = F19B9CDF233E47C300B218C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19B9CDD233E47C300B218C2 /* Tax TaxCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19B9CDC233E47C300B218C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1A897D124571565003E22D5 /* Info.plist in Resources */,
+				F1C60D9424571171005DAE96 /* Main.storyboard in Resources */,
+				F1C60D9224571171005DAE96 /* Assets.xcassets in Resources */,
+				F1C60D9324571171005DAE96 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19B9CDA233E47C300B218C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C60D9524571171005DAE96 /* AppDelegate.swift in Sources */,
+				F1C60D9124571171005DAE96 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1C60D8B24571171005DAE96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C60D8C24571171005DAE96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1C60D8D24571171005DAE96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1C60D8E24571171005DAE96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19B9CEE233E47C400B218C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F19B9CEF233E47C400B218C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19B9CF1233E47C400B218C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = SG7W5VDYUQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Tax TaxCalculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nechan.TaxCalculator;
+				PRODUCT_NAME = "消費税即時計算";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tax TaxCalculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F19B9CF2233E47C400B218C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = SG7W5VDYUQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Tax TaxCalculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Nechan.TaxCalculator;
+				PRODUCT_NAME = "消費税即時計算";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tax TaxCalculator-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19B9CD9233E47C300B218C2 /* Build configuration list for PBXProject "Tax TaxCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19B9CEE233E47C400B218C2 /* Debug */,
+				F19B9CEF233E47C400B218C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19B9CF0233E47C400B218C2 /* Build configuration list for PBXNativeTarget "Tax TaxCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19B9CF1233E47C400B218C2 /* Debug */,
+				F19B9CF2233E47C400B218C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19B9CD6233E47C300B218C2 /* Project object */;
+}
